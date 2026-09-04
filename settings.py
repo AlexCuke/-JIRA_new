@@ -13,6 +13,12 @@ load_dotenv()
 DEFAULT_TIMEOUT_MS = 15_000
 DEFAULT_PREFIX = "KISEMIAS2019-"
 AVAILABLE_PREFIXES = ("KISEMIAS2019-", "KISEMIAS2025-", "REFACT-")
+TARGET_JIRA_PROJECTS = ("КИС ЕМИАС (KIS)", "КИС 2.0 (REFACT)")
+SOURCE_TO_TARGET_PROJECT = {
+    "KISEMIAS2019-": "КИС ЕМИАС (KIS)",
+    "KISEMIAS2025-": "КИС 2.0 (REFACT)",
+    "REFACT-": "КИС 2.0 (REFACT)",
+}
 
 CONFIG = {
     "src_jira": {
@@ -24,6 +30,7 @@ CONFIG = {
     "dest_jira": {
         "url": "http://jira.oblteh:8080",
         "dashboard": "http://jira.oblteh:8080/secure/Dashboard.jspa",
+        "create_issue_url": "http://jira.oblteh:8080/secure/CreateIssue!default.jspa",
         "user": os.getenv("DEST_LOGIN"),
         "pass": os.getenv("DEST_PASSWORD"),
     },

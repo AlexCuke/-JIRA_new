@@ -4,7 +4,10 @@ import tkinter as tk
 from tkinter import ttk, messagebox, scrolledtext
 import threading
 from datetime import datetime
-from settings import AVAILABLE_FIELDS, AVAILABLE_PREFIXES, DEFAULT_PREFIX, SOURCE_OPTIONS, TARGET_OPTIONS
+from settings import (
+    AVAILABLE_FIELDS, AVAILABLE_PREFIXES, DEFAULT_PREFIX, SOURCE_OPTIONS,
+    SOURCE_TO_TARGET_PROJECT, TARGET_JIRA_PROJECTS, TARGET_OPTIONS,
+)
 
 # Импортируем логику из нашего основного файла jrf.py
 try:
@@ -43,6 +46,7 @@ class MigrationGUI(tk.Tk):
         
         self.source_sys_var = tk.StringVar(value="jira_mos")
         self.target_sys_var = tk.StringVar(value="jira_new")
+        self.target_project_var = tk.StringVar(value=TARGET_JIRA_PROJECTS[0])
         self.task_input_var = tk.StringVar()
         self.field_vars = {}
         
@@ -61,12 +65,23 @@ class MigrationGUI(tk.Tk):
         src_combo['values'] = SOURCE_OPTIONS
         src_combo.current(0)
         src_combo.grid(row=0, column=1, sticky=tk.W, padx=5, pady=5)
+        src_combo.bind("<<ComboboxSelected>>", self.on_source_changed)
 
         ttk.Label(route_lf, text="Куда (Целевая система):").grid(row=1, column=0, sticky=tk.W, padx=5, pady=5)
         dst_combo = ttk.Combobox(route_lf, textvariable=self.target_sys_var, state="readonly", width=35)
         dst_combo['values'] = TARGET_OPTIONS
         dst_combo.current(0)
         dst_combo.grid(row=1, column=1, sticky=tk.W, padx=5, pady=5)
+
+        ttk.Label(route_lf, text="Проект в целевой Jira:").grid(row=2, column=0, sticky=tk.W, padx=5, pady=5)
+        target_project_combo = ttk.Combobox(
+            route_lf,
+            textvariable=self.target_project_var,
+            values=TARGET_JIRA_PROJECTS,
+            state="readonly",
+            width=35,
+        )
+        target_project_combo.grid(row=2, column=1, sticky=tk.W, padx=5, pady=5)
         
         # --- БЛОК 2: ВЫБОР ПОЛЕЙ ДЛЯ ПЕРЕНОСА ---
         fields_lf = ttk.LabelFrame(main_frame, text=" 2. Настройка переносимых полей ", padding="10")
@@ -130,6 +145,11 @@ class MigrationGUI(tk.Tk):
                 return prefix
         return DEFAULT_PREFIX
 
+    def on_source_changed(self, _event=None):
+        """Автоматически выбирает проект целевой Jira по проекту-источнику."""
+        prefix = self.get_selected_prefix()
+        self.target_project_var.set(SOURCE_TO_TARGET_PROJECT[prefix])
+
     def log(self, message):
         """Безопасное добавление логов без f-string синтаксических ошибок"""
         self.log_area.config(state=tk.NORMAL)
@@ -169,6 +189,10 @@ class MigrationGUI(tk.Tk):
 
         target_selection = self.target_sys_var.get()
         target_sys = "jira" if "Jira" in target_selection else "redmine"
+        target_project = self.target_project_var.get().strip()
+        if target_sys == "jira" and not target_project:
+            messagebox.showwarning("Внимание", "Выберите или введите проект целевой Jira!")
+            return
         
         self.run_btn.config(state=tk.DISABLED)
         
@@ -178,16 +202,18 @@ class MigrationGUI(tk.Tk):
         
         migration_thread = threading.Thread(
             target=self.execute_migration_process, 
-            args=(prefix, task_id, target_sys, selected_fields),
+            args=(prefix, task_id, target_sys, target_project, selected_fields),
             daemon=True
         )
         migration_thread.start()
 
-    def execute_migration_process(self, prefix, task_id, target_sys, selected_fields):
+    def execute_migration_process(self, prefix, task_id, target_sys, target_project, selected_fields):
         try:
             self.log(f"Старт процесса миграции задачи {prefix}{task_id}")
             self.log(f"Проект-источник: {prefix}")
             self.log(f"Целевая система: {target_sys.upper()}")
+            if target_sys == "jira":
+                self.log(f"Проект целевой Jira: {target_project}")
 
             with jrf.get_browser_page() as page:
                 self.log(f"[Playwright] Подключение к источнику jira.mos.social/browse/{prefix}...")
@@ -206,7 +232,7 @@ class MigrationGUI(tk.Tk):
                 self.log(f"[Playwright] Открытие целевой формы на {target_sys.upper()}...")
                 if target_sys == "jira":
                     dest_page = jrf.JiraDestPage(page)
-                    dest_page.create_issue(filtered_data, task_id)
+                    dest_page.create_issue(filtered_data, task_id, target_project)
                 else:
                     dest_page = jrf.RedmineDestPage(page)
                     dest_page.create_issue(filtered_data, task_id)

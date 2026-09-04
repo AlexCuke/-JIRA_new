@@ -32,6 +32,8 @@ DESTINATION_JIRA = {
     "login_button": "#login",
     "login_error": ".aui-message.error, .error, #error",
     "create_button": "#create_link",
+    "project_combobox": "[role='combobox']",
+    "project_combobox_name": "Проект Обязательно",
     "summary": "#summary",
     "due_date": "#duedate",
     "description": "#description",

@@ -128,7 +128,7 @@ class JiraSourcePage(BasePage):
 class JiraDestPage(BasePage):
     def login_if_needed(self):
         username = self.page.locator(DJ["login"])
-        if not self.wait_for_login_form(DJ["login"], DJ["create_button"]):
+        if not self.wait_for_login_form(DJ["login"], DJ["project_combobox"]):
             if "login" in self.page.url.lower():
                 raise RuntimeError("Форма входа целевой Jira не загрузилась")
             return
@@ -142,10 +142,20 @@ class JiraDestPage(BasePage):
             message = self.text_or_empty(DJ["login_error"])
             raise RuntimeError(message or "Целевая Jira не приняла логин или пароль") from error
 
-    def create_issue(self, data, issue_number):
-        self.page.goto(CONFIG["dest_jira"]["dashboard"], wait_until="domcontentloaded")
+    def select_project(self, project_name):
+        project = self.page.get_by_role("combobox", name=DJ["project_combobox_name"])
+        project.wait_for(state="visible")
+        project.click()
+        try:
+            project.select_option(label=project_name, timeout=3_000)
+        except Exception:
+            project.fill(project_name)
+            self.page.get_by_role("option", name=project_name, exact=True).click()
+
+    def create_issue(self, data, issue_number, project_name):
+        self.page.goto(CONFIG["dest_jira"]["create_issue_url"], wait_until="domcontentloaded")
         self.login_if_needed()
-        self.page.locator(DJ["create_button"]).click()
+        self.select_project(project_name)
         self.page.locator(DJ["summary"]).wait_for(state="visible")
         if data.get("summary"):
             self.fill(DJ["summary"], f"{data['summary']} [{issue_number}]")
