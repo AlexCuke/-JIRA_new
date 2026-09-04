@@ -4,9 +4,10 @@ import tkinter as tk
 from tkinter import ttk, messagebox, scrolledtext
 import threading
 from datetime import datetime
+from field_mappings import SOURCE_TO_TARGET_PROJECT
 from settings import (
     AVAILABLE_FIELDS, AVAILABLE_PREFIXES, DEFAULT_PREFIX, SOURCE_OPTIONS,
-    SOURCE_TO_TARGET_PROJECT, TARGET_JIRA_PROJECTS, TARGET_OPTIONS,
+    TARGET_JIRA_PROJECTS, TARGET_OPTIONS,
 )
 
 # Импортируем логику из нашего основного файла jrf.py
@@ -49,6 +50,7 @@ class MigrationGUI(tk.Tk):
         self.target_project_var = tk.StringVar(value=TARGET_JIRA_PROJECTS[0])
         self.task_input_var = tk.StringVar()
         self.field_vars = {}
+        self.source_sys_var.trace_add("write", self.on_source_changed)
         
         self.create_widgets()
         
@@ -65,7 +67,6 @@ class MigrationGUI(tk.Tk):
         src_combo['values'] = SOURCE_OPTIONS
         src_combo.current(0)
         src_combo.grid(row=0, column=1, sticky=tk.W, padx=5, pady=5)
-        src_combo.bind("<<ComboboxSelected>>", self.on_source_changed)
 
         ttk.Label(route_lf, text="Куда (Целевая система):").grid(row=1, column=0, sticky=tk.W, padx=5, pady=5)
         dst_combo = ttk.Combobox(route_lf, textvariable=self.target_sys_var, state="readonly", width=35)
@@ -74,14 +75,14 @@ class MigrationGUI(tk.Tk):
         dst_combo.grid(row=1, column=1, sticky=tk.W, padx=5, pady=5)
 
         ttk.Label(route_lf, text="Проект в целевой Jira:").grid(row=2, column=0, sticky=tk.W, padx=5, pady=5)
-        target_project_combo = ttk.Combobox(
+        self.target_project_combo = ttk.Combobox(
             route_lf,
             textvariable=self.target_project_var,
             values=TARGET_JIRA_PROJECTS,
             state="readonly",
             width=35,
         )
-        target_project_combo.grid(row=2, column=1, sticky=tk.W, padx=5, pady=5)
+        self.target_project_combo.grid(row=2, column=1, sticky=tk.W, padx=5, pady=5)
         
         # --- БЛОК 2: ВЫБОР ПОЛЕЙ ДЛЯ ПЕРЕНОСА ---
         fields_lf = ttk.LabelFrame(main_frame, text=" 2. Настройка переносимых полей ", padding="10")
@@ -145,10 +146,13 @@ class MigrationGUI(tk.Tk):
                 return prefix
         return DEFAULT_PREFIX
 
-    def on_source_changed(self, _event=None):
+    def on_source_changed(self, *_args):
         """Автоматически выбирает проект целевой Jira по проекту-источнику."""
         prefix = self.get_selected_prefix()
-        self.target_project_var.set(SOURCE_TO_TARGET_PROJECT[prefix])
+        project = SOURCE_TO_TARGET_PROJECT[prefix]
+        self.target_project_var.set(project)
+        if hasattr(self, "target_project_combo"):
+            self.target_project_combo.current(TARGET_JIRA_PROJECTS.index(project))
 
     def log(self, message):
         """Безопасное добавление логов без f-string синтаксических ошибок"""

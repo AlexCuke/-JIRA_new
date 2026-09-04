@@ -3,6 +3,7 @@ from contextlib import contextmanager
 from datetime import datetime
 
 from playwright.sync_api import Locator, Page, TimeoutError as PlaywrightTimeoutError, sync_playwright
+from field_mappings import FIELD_MAPPINGS, map_field_value
 from settings import AVAILABLE_PREFIXES, CONFIG, DEFAULT_PREFIX, DEFAULT_TIMEOUT_MS
 from playwright_selectors import DESTINATION_JIRA as DJ, REDMINE as RM, SOURCE_JIRA as SJ
 
@@ -111,17 +112,18 @@ class JiraSourcePage(BasePage):
             raise RuntimeError(
                 f"Задача {project_prefix}{issue_number} не открылась после входа. Текущий URL: {self.page.url}"
             ) from error
-        description = self.text_or_empty(SJ["description"])
-        raw_date = self.text_or_empty(SJ["due_date"]) or self.attribute_or_empty(SJ["due_date"], "datetime")
+        source = lambda field: SJ[FIELD_MAPPINGS[field]["source_jira"]]
+        description = self.text_or_empty(source("description"))
+        raw_date = self.text_or_empty(source("duedate")) or self.attribute_or_empty(source("duedate"), "datetime")
         if not raw_date:
             aria = self.attribute_or_empty(SJ["due_date_by_label"], "aria-label")
             raw_date = aria.split(":", 1)[0].strip() if aria else ""
         return {
-            "summary": self.text_or_empty(SJ["summary"]),
+            "summary": self.text_or_empty(source("summary")),
             "description": f"{description}\n\nСсылка на Московскую Jira - {url}",
             "duedate": raw_date,
-            "cf_15608": self.text_or_empty(SJ["custom_field_15608"]),
-            "cf_22106": self.text_or_empty(SJ["custom_field_22106"]),
+            "cf_15608": self.text_or_empty(source("cf_15608")),
+            "cf_22106": self.text_or_empty(source("cf_22106")),
         }
 
 
@@ -147,29 +149,49 @@ class JiraDestPage(BasePage):
         project.wait_for(state="visible")
         project.click()
         try:
-            project.select_option(label=project_name, timeout=3_000)
-        except Exception:
             project.fill(project_name)
-            self.page.get_by_role("option", name=project_name, exact=True).click()
+        except Exception:
+            project.press("Control+A")
+            project.press_sequentially(project_name)
+
+        option = self.page.get_by_role("option", name=project_name, exact=True)
+        try:
+            option.wait_for(state="visible", timeout=10_000)
+            option.click()
+        except PlaywrightTimeoutError:
+            # В старых версиях Jira пункты Select2 не имеют роли option.
+            self.page.get_by_text(project_name, exact=True).last.click(timeout=10_000)
+
+        # Поле должно содержать выбранное значение, иначе не продолжаем с неверным проектом.
+        selected = project.input_value(timeout=5_000).strip()
+        if project_name.casefold() not in selected.casefold():
+            raise RuntimeError(
+                f"Целевая Jira не выбрала проект '{project_name}'. "
+                f"В поле осталось: '{selected}'"
+            )
 
     def create_issue(self, data, issue_number, project_name):
         self.page.goto(CONFIG["dest_jira"]["create_issue_url"], wait_until="domcontentloaded")
         self.login_if_needed()
         self.select_project(project_name)
-        self.page.locator(DJ["summary"]).wait_for(state="visible")
+        target = lambda field: DJ[FIELD_MAPPINGS[field]["target_jira"]]
+        self.page.locator(target("summary")).wait_for(state="visible")
         if data.get("summary"):
-            self.fill(DJ["summary"], f"{data['summary']} [{issue_number}]")
+            summary = map_field_value("summary", "target_jira", data["summary"])
+            self.fill(target("summary"), f"{summary} [{issue_number}]")
         if data.get("duedate"):
-            self.fill(DJ["due_date"], convert_date(data["duedate"], "jira"))
+            due_date = map_field_value("duedate", "target_jira", data["duedate"])
+            self.fill(target("duedate"), convert_date(due_date, "jira"))
         if data.get("description"):
+            description = map_field_value("description", "target_jira", data["description"])
             if self.page.locator(DJ["description_iframe"]).count():
-                self.page.frame_locator(DJ["description_iframe"]).locator(DJ["description_iframe_body"]).fill(data["description"])
-            elif self.page.locator(DJ["description"]).count():
-                self.fill(DJ["description"], data["description"])
+                self.page.frame_locator(DJ["description_iframe"]).locator(DJ["description_iframe_body"]).fill(description)
+            elif self.page.locator(target("description")).count():
+                self.fill(target("description"), description)
         if data.get("cf_15608"):
-            self.select_by_text(DJ["custom_field_10402"], data["cf_15608"])
+            self.select_by_text(target("cf_15608"), map_field_value("cf_15608", "target_jira", data["cf_15608"]))
         if data.get("cf_22106"):
-            self.select_by_text(DJ["custom_field_10403"], data["cf_22106"])
+            self.select_by_text(target("cf_22106"), map_field_value("cf_22106", "target_jira", data["cf_22106"]))
 
 
 class RedmineDestPage(BasePage):
@@ -186,17 +208,20 @@ class RedmineDestPage(BasePage):
         self.login_if_needed()
         if "issues/new" not in self.page.url:
             self.page.goto(CONFIG["dest_redmine"]["url"], wait_until="domcontentloaded")
-        self.page.locator(RM["subject"]).wait_for(state="visible")
+        target = lambda field: RM[FIELD_MAPPINGS[field]["redmine"]]
+        self.page.locator(target("summary")).wait_for(state="visible")
         if data.get("summary"):
-            self.fill(RM["subject"], f"{data['summary']} [{issue_number}]")
+            summary = map_field_value("summary", "redmine", data["summary"])
+            self.fill(target("summary"), f"{summary} [{issue_number}]")
         if data.get("duedate"):
-            self.fill(RM["due_date"], convert_date(data["duedate"], "redmine"))
+            due_date = map_field_value("duedate", "redmine", data["duedate"])
+            self.fill(target("duedate"), convert_date(due_date, "redmine"))
         if data.get("description"):
-            self.fill(RM["description"], data["description"])
+            self.fill(target("description"), map_field_value("description", "redmine", data["description"]))
         if data.get("cf_15608"):
-            self.select_by_text(RM["custom_field_10402"], data["cf_15608"])
+            self.select_by_text(target("cf_15608"), map_field_value("cf_15608", "redmine", data["cf_15608"]))
         if data.get("cf_22106"):
-            self.select_by_text(RM["custom_field_10403"], data["cf_22106"])
+            self.select_by_text(target("cf_22106"), map_field_value("cf_22106", "redmine", data["cf_22106"]))
 
 
 @contextmanager
