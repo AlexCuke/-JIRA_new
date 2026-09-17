@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "url": "https://rm.oblteh.ru/redmine/projects/mehr/issues/new",
+  "saved_at": "2026-09-08T11:03:35.703212+00:00",
+  "fields": [
+    {
+      "label": "issue_description",
+      "selector": "#issue_description"
+    }
+  ]
+}

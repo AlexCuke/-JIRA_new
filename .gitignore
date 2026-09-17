@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+env/
+.ven/
+build/Task_Migrator_KISEMIAS/
+standalone-exe/build/
+java-migrator/target/

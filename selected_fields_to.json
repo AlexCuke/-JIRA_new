@@ -1,0 +1,83 @@
+{
+  "version": 1,
+  "url": "https://rm.oblteh.ru/redmine/projects/mehr/issues/new",
+  "saved_at": "2026-09-08T09:49:53.293634+00:00",
+  "fields": [
+    {
+      "label": "issue_start_date",
+      "selector": "#issue_start_date"
+    },
+    {
+      "label": "issue_due_date",
+      "selector": "#issue_due_date"
+    },
+    {
+      "label": "issue_custom_field_values_13",
+      "selector": "#issue_custom_field_values_13"
+    },
+    {
+      "label": "issue_custom_field_values_10",
+      "selector": "#issue_custom_field_values_10"
+    },
+    {
+      "label": "issue_custom_field_values_12",
+      "selector": "#issue_custom_field_values_12"
+    },
+    {
+      "label": "issue_project_id",
+      "selector": "#issue_project_id"
+    },
+    {
+      "label": "issue_tracker_id",
+      "selector": "#issue_tracker_id"
+    },
+    {
+      "label": "issue_subject",
+      "selector": "#issue_subject"
+    },
+    {
+      "label": "issue_description",
+      "selector": "#issue_description"
+    },
+    {
+      "label": "issue_status_id",
+      "selector": "#issue_status_id"
+    },
+    {
+      "label": "issue_priority_id",
+      "selector": "#issue_priority_id"
+    },
+    {
+      "label": "issue_assigned_to_id",
+      "selector": "#issue_assigned_to_id"
+    },
+    {
+      "label": "issue_fixed_version_id",
+      "selector": "#issue_fixed_version_id"
+    },
+    {
+      "label": "issue_custom_field_values_2",
+      "selector": "#issue_custom_field_values_2"
+    },
+    {
+      "label": "issue_custom_field_values_11",
+      "selector": "#issue_custom_field_values_11"
+    },
+    {
+      "label": "issue_custom_field_values_3",
+      "selector": "#issue_custom_field_values_3"
+    },
+    {
+      "label": "issue_custom_field_values_15",
+      "selector": "#issue_custom_field_values_15"
+    },
+    {
+      "label": "issue_tags",
+      "selector": "#issue_tags"
+    },
+    {
+      "label": "attachments_form",
+      "selector": "#attachments_form"
+    }
+  ]
+}

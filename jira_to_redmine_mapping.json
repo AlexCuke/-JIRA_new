@@ -1,0 +1,57 @@
+[
+  {
+    "label": "Срок_Исполнения",
+    "selector": "#due-date",
+    "target": "mapped",
+    "target_system": "redmine",
+    "target_selector": "#issue_custom_field_values_2",
+    "target_label": "Срок_Исполнения"
+  },
+  {
+    "label": "Название",
+    "selector": "#summary-val",
+    "target": "mapped",
+    "target_system": "redmine",
+    "target_selector": "#issue_subject",
+    "target_label": "Название",
+    "value_mapping": {
+      "Блокер": "Немедленный",
+      "Критический": "Срочный",
+      "Серьезный": "Высокий",
+      "Незначительный": "Нормальный",
+      "Тривиальный": "Низкий"
+    }
+  },
+  {
+    "label": "Тип",
+    "selector": "#type-val",
+    "target": "mapped",
+    "target_system": "redmine",
+    "target_selector": "#issue_tracker_id",
+    "target_label": "Тип"
+  },
+  {
+    "label": "Приоритет",
+    "selector": "#priority-val",
+    "target": "mapped",
+    "target_system": "redmine",
+    "target_selector": "#issue_priority_id",
+    "target_label": "Приоритет"
+  },
+  {
+    "label": "Исправить_в_версиях",
+    "selector": "#fixfor-val",
+    "target": "mapped",
+    "target_system": "redmine",
+    "target_selector": "#issue_fixed_version_id",
+    "target_label": "Версия"
+  },
+  {
+    "label": "Описание",
+    "selector": "#description-val",
+    "target": "mapped",
+    "target_system": "redmine",
+    "target_selector": "#issue_description",
+    "target_label": "Описание"
+  }
+]

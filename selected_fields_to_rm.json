@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "url": "https://rm.oblteh.ru/redmine/projects/mehr/issues/new",
+  "saved_at": "2026-09-08T10:57:32.808634+00:00",
+  "fields": [
+    {
+      "label": "Проект",
+      "selector": "#issue_project_id"
+    },
+    {
+      "label": "Тип",
+      "selector": "#issue_tracker_id"
+    },
+    {
+      "label": "Статус_рм",
+      "selector": "#issue_status_id"
+    },
+    {
+      "label": "Назначена",
+      "selector": "#issue_assigned_to_id"
+    },
+    {
+      "label": "Версия",
+      "selector": "#issue_fixed_version_id"
+    },
+    {
+      "label": "Срок_Исполнения",
+      "selector": "#issue_custom_field_values_2"
+    },
+    {
+      "label": "Вложенные_файлы",
+      "selector": "#attachments_form"
+    },
+    {
+      "label": "Исполнитель",
+      "selector": "#issue_custom_field_values_11"
+    },
+    {
+      "label": "Постановщик",
+      "selector": "#issue_custom_field_values_13"
+    },
+    {
+      "label": "Название",
+      "selector": "#issue_subject"
+    },
+    {
+      "label": "Приоритет",
+      "selector": "#issue_priority_id"
+    },
+    {
+      "label": "Описание",
+      "selector": "#issue_description"
+    }
+  ]
+}

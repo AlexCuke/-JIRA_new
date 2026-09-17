@@ -1,0 +1,14 @@
+{
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1Sa3Lw2gHpydYQ6bZY9jYSlRo7261kQdhF0upwYaiWOY/edit",
+  "worksheet_name": "Лист",
+  "credentials_file": "C:/Users/Давыдов Александр/Desktop/REPO/!JIRA_new/alert-weaver-347010-7220c2dc4950.json",
+  "header_row": 1,
+  "column_mapping": {
+    "__issue_number": "№",
+    "__source_url": "Jira- Москва",
+    "__destination_url": "Jira- Внутр. /redmine",
+    "__assignee": "Исполнитель",
+    "Срок_Исполнения": "Срок",
+    "Название": "Наименование"
+  }
+}

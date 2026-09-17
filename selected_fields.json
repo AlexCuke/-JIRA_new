@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "url": "https://jira.mos.social/browse/KISEMIAS2019-21581",
+  "saved_at": "2026-09-08T10:53:34.769281+00:00",
+  "fields": [
+    {
+      "label": "Срок_Исполнения",
+      "selector": "#due-date"
+    },
+    {
+      "label": "Название",
+      "selector": "#summary-val"
+    },
+    {
+      "label": "Тип",
+      "selector": "#type-val"
+    },
+    {
+      "label": "Приоритет",
+      "selector": "#priority-val"
+    },
+    {
+      "label": "Затронуты_версии",
+      "selector": "#versions-val"
+    },
+    {
+      "label": "Компоненты",
+      "selector": "#components-val"
+    },
+    {
+      "label": "Метки",
+      "selector": "#wrap-labels"
+    },
+    {
+      "label": "Описание_релиза",
+      "selector": "#customfield_15608-val"
+    },
+    {
+      "label": "520",
+      "selector": "#customfield_22106-val"
+    },
+    {
+      "label": "Исправить_в_версиях",
+      "selector": "#fixfor-val"
+    },
+    {
+      "label": "Описание",
+      "selector": "#description-val"
+    },
+    {
+      "label": "Вложенные_файлы_Опции",
+      "selector": "#attachments-actions-trigger-button"
+    },
+    {
+      "label": "Связи",
+      "selector": "#remote-1238519"
+    }
+  ]
+}

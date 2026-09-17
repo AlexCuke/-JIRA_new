@@ -1,0 +1,267 @@
+[
+  {
+    "selector": "#key-val",
+    "label": "key-val",
+    "target": "description"
+  },
+  {
+    "label": "Срок_Исполнения",
+    "selector": "#due-date",
+    "target": "mapped",
+    "target_system": "jira",
+    "target_selector": "#duedate",
+    "target_label": "Срок_Исполнения",
+    "target_project": "КИС ЕМИАС (KIS)"
+  },
+  {
+    "label": "Название",
+    "selector": "#summary-val",
+    "target": "mapped",
+    "target_system": "jira",
+    "target_selector": "#summary",
+    "target_label": "Название",
+    "target_project": "КИС ЕМИАС (KIS)"
+  },
+  {
+    "label": "Тип",
+    "selector": "#type-val",
+    "target": "mapped",
+    "target_system": "jira",
+    "target_selector": "#issuetype-field",
+    "target_label": "Тип",
+    "target_project": "КИС ЕМИАС (KIS)"
+  },
+  {
+    "label": "Приоритет",
+    "selector": "#priority-val",
+    "target": "mapped",
+    "target_system": "jira",
+    "target_selector": "#priority-field",
+    "target_label": "Приоритет",
+    "target_project": "КИС ЕМИАС (KIS)"
+  },
+  {
+    "label": "Метки",
+    "selector": "#wrap-labels",
+    "target": "mapped",
+    "target_system": "jira",
+    "target_selector": "#labels-textarea",
+    "target_label": "Метки",
+    "target_project": "КИС ЕМИАС (KIS)"
+  },
+  {
+    "label": "Исправить_в_версиях",
+    "selector": "#fixfor-val",
+    "target": "mapped",
+    "target_system": "jira",
+    "target_selector": "#fixVersions-textarea",
+    "target_label": "Исправить_в_версиях",
+    "target_project": "КИС ЕМИАС (KIS)"
+  },
+  {
+    "label": "Описание",
+    "selector": "#description-val",
+    "target": "mapped",
+    "target_system": "jira",
+    "target_selector": "#mce_0",
+    "target_label": "Описание",
+    "target_project": "КИС ЕМИАС (KIS)"
+  },
+  {
+    "label": "Вложенные_файлы_Опции",
+    "selector": "#attachments-actions-trigger-button",
+    "target": "mapped",
+    "target_system": "jira",
+    "target_selector": "#attachment-browse-button",
+    "target_label": "Вложенные_файлы_Опции",
+    "target_project": "КИС ЕМИАС (KIS)"
+  },
+  {
+    "label": "Исполнитель",
+    "selector": "",
+    "target": "mapped",
+    "target_system": "jira",
+    "target_selector": "#assignee-field",
+    "target_label": "Исполнитель",
+    "default_only": true,
+    "target_project": "КИС ЕМИАС (KIS)",
+    "default_value": "Давыдов Александр"
+  },
+  {
+    "label": "Тестировщик",
+    "selector": "",
+    "target": "mapped",
+    "target_system": "jira",
+    "target_selector": "#customfield_10400-field",
+    "target_label": "Тестировщик",
+    "default_only": true,
+    "target_project": "КИС ЕМИАС (KIS)",
+    "default_value": "Давыдов Александр"
+  },
+  {
+    "label": "Срок_Исполнения",
+    "selector": "#due-date",
+    "target": "mapped",
+    "target_system": "jira",
+    "target_selector": "#duedate",
+    "target_label": "Срок_Исполнения",
+    "target_project": "КИС 2.0 (REFACT)"
+  },
+  {
+    "label": "Название",
+    "selector": "#summary-val",
+    "target": "mapped",
+    "target_system": "jira",
+    "target_selector": "#summary",
+    "target_label": "Название",
+    "target_project": "КИС 2.0 (REFACT)"
+  },
+  {
+    "label": "Тип",
+    "selector": "#type-val",
+    "target": "mapped",
+    "target_system": "jira",
+    "target_selector": "#issuetype-field",
+    "target_label": "Тип",
+    "target_project": "КИС 2.0 (REFACT)"
+  },
+  {
+    "label": "Приоритет",
+    "selector": "#priority-val",
+    "target": "mapped",
+    "target_system": "jira",
+    "target_selector": "#priority-field",
+    "target_label": "Приоритет",
+    "target_project": "КИС 2.0 (REFACT)"
+  },
+  {
+    "label": "Метки",
+    "selector": "#wrap-labels",
+    "target": "mapped",
+    "target_system": "jira",
+    "target_selector": "#labels-textarea",
+    "target_label": "Метки",
+    "target_project": "КИС 2.0 (REFACT)"
+  },
+  {
+    "label": "Исправить_в_версиях",
+    "selector": "#fixfor-val",
+    "target": "mapped",
+    "target_system": "jira",
+    "target_selector": "#fixVersions-textarea",
+    "target_label": "Исправить_в_версиях",
+    "target_project": "КИС 2.0 (REFACT)"
+  },
+  {
+    "label": "Описание",
+    "selector": "#description-val",
+    "target": "mapped",
+    "target_system": "jira",
+    "target_selector": "#mce_0",
+    "target_label": "Описание",
+    "target_project": "КИС 2.0 (REFACT)"
+  },
+  {
+    "label": "Вложенные_файлы_Опции",
+    "selector": "#attachments-actions-trigger-button",
+    "target": "mapped",
+    "target_system": "jira",
+    "target_selector": "#attachment-browse-button",
+    "target_label": "Вложенные_файлы_Опции",
+    "target_project": "КИС 2.0 (REFACT)"
+  },
+  {
+    "label": "Исполнитель",
+    "selector": "",
+    "target": "mapped",
+    "target_system": "jira",
+    "target_selector": "#assignee-field",
+    "target_label": "Исполнитель",
+    "default_only": true,
+    "target_project": "КИС 2.0 (REFACT)",
+    "default_value": "Давыдов Александр"
+  },
+  {
+    "label": "Тестировщик",
+    "selector": "",
+    "target": "mapped",
+    "target_system": "jira",
+    "target_selector": "#customfield_10400-field",
+    "target_label": "Тестировщик",
+    "default_only": true,
+    "target_project": "КИС 2.0 (REFACT)",
+    "default_value": "Давыдов Александр"
+  },
+  {
+    "label": "Срок_Исполнения",
+    "selector": "#due-date",
+    "target": "mapped",
+    "target_system": "redmine",
+    "target_selector": "#issue_custom_field_values_2",
+    "target_label": "Срок_Исполнения"
+  },
+  {
+    "label": "Название",
+    "selector": "#summary-val",
+    "target": "mapped",
+    "target_system": "redmine",
+    "target_selector": "#issue_subject",
+    "target_label": "Название"
+  },
+  {
+    "label": "Тип",
+    "selector": "#type-val",
+    "target": "mapped",
+    "target_system": "redmine",
+    "target_selector": "#issue_tracker_id",
+    "target_label": "Тип",
+    "value_mapping": {
+      "Задача": "Поддержка",
+      "Ошибка": "Ошибка",
+      "Новая функциональность": "Разработка нового",
+      "Улучшение": "Улучшение"
+    }
+  },
+  {
+    "label": "Приоритет",
+    "selector": "#priority-val",
+    "target": "mapped",
+    "target_system": "redmine",
+    "target_selector": "#issue_priority_id",
+    "target_label": "Приоритет",
+    "value_mapping": {
+      "Тривиальный": "Нормальный",
+      "Серьезный": "Высокий",
+      "Критический": "Срочный",
+      "Блокер": "Немедленный"
+    }
+  },
+  {
+    "label": "Описание",
+    "selector": "#description-val",
+    "target": "mapped",
+    "target_system": "redmine",
+    "target_selector": "#issue_description",
+    "target_label": "Описание"
+  },
+  {
+    "label": "Исполнитель",
+    "selector": "",
+    "target": "mapped",
+    "target_system": "redmine",
+    "target_selector": "#issue_custom_field_values_11",
+    "target_label": "Исполнитель",
+    "default_only": true,
+    "default_value": "Давыдов Александр"
+  },
+  {
+    "label": "Постановщик",
+    "selector": "",
+    "target": "mapped",
+    "target_system": "redmine",
+    "target_selector": "#issue_custom_field_values_13",
+    "target_label": "Постановщик",
+    "default_only": true,
+    "default_value": "Давыдов Александр"
+  }
+]

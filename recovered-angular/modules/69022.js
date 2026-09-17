@@ -1,0 +1,79 @@
+// Extracted from main; webpack module 69022. Factory, not an ES module.
+((Ae, V, i) => {
+  "use strict";
+
+  i.d(V, {
+    _5: () => L,
+    l$: () => O
+  });
+  var t = i(94650),
+    e = i(93278),
+    a = i(36895),
+    m = i(32643);
+  function d(C, v) {
+    1 & C && (t.TgZ(0, "span", 3), t.NdJ("click", function (E) {
+      return E.stopPropagation();
+    }), t.Hsn(1, 1), t.qZA());
+  }
+  function M(C, v) {
+    1 & C && (t.TgZ(0, "span", 4), t.NdJ("click", function (E) {
+      return E.stopPropagation();
+    }), t.Hsn(1, 2), t.qZA());
+  }
+  const b = ["*", [["", "luTagPrefix", ""]], [["", "luTagPostfix", ""]]],
+    A = ["*", "[luTagPrefix]", "[luTagPostfix]"];
+  let O = (() => {
+      class C {
+        constructor(f) {
+          this.elementRef = f, this.color = "default", this.type = "default", this.isClickable = !1;
+        }
+        ngAfterContentInit() {
+          this.elementRef?.nativeElement.querySelector(".lu-text")?.setAttribute("data-test-role", "title");
+        }
+        get hasIcon() {
+          return !!this.icon;
+        }
+      }
+      return C.ɵfac = function (f) {
+        return new (f || C)(t.Y36(t.SBq));
+      }, C.ɵcmp = t.Xpm({
+        type: C,
+        selectors: [["lu-tag"]],
+        contentQueries: function (f, E, h) {
+          if (1 & f && t.Suo(h, e.q, 5), 2 & f) {
+            let x;
+            t.iGM(x = t.CRH()) && (E.icon = x.first);
+          }
+        },
+        hostVars: 3,
+        hostBindings: function (f, E) {
+          2 & f && t.uIk("data-lu-color", E.color)("data-lu-type", E.type)("data-lu-with-icon", E.hasIcon);
+        },
+        inputs: {
+          color: "color",
+          type: "type",
+          isClickable: "isClickable"
+        },
+        ngContentSelectors: A,
+        decls: 4,
+        vars: 2,
+        consts: [["size", "small", "lu-text", "", 1, "lu-tag-content"], ["class", "lu-tag-icon lu-tag-icon_left", 3, "click", 4, "ngIf"], ["class", "lu-tag-icon lu-tag-icon_right", 3, "click", 4, "ngIf"], [1, "lu-tag-icon", "lu-tag-icon_left", 3, "click"], [1, "lu-tag-icon", "lu-tag-icon_right", 3, "click"]],
+        template: function (f, E) {
+          1 & f && (t.F$t(b), t.TgZ(0, "div", 0), t.YNc(1, d, 2, 0, "span", 1), t.Hsn(2), t.YNc(3, M, 2, 0, "span", 2), t.qZA()), 2 & f && (t.xp6(1), t.Q6J("ngIf", !!E.icon), t.xp6(2), t.Q6J("ngIf", !!E.icon));
+        },
+        dependencies: [a.O5, m.NZ],
+        styles: ["[_nghost-%COMP%]{position:relative;display:inline-flex;padding:1px var(--lu-base-gutter);background:var(--lu-tag-background);border:1px solid var(--lu-tag-border);vertical-align:middle;min-height:24px;--lu-text-color: var(--lu-tag-text);--lu-font-weight: bold;--lu-svg-icon-color: var(--lu-tag-text)}[_nghost-%COMP%]     .lu-text{display:flex}[data-lu-color=teal][_nghost-%COMP%]{--lu-tag-background: var(--lu-teal-100);--lu-tag-border: var(--lu-teal-100);--lu-tag-text: var(--lu-white)}[data-lu-color=yellow][_nghost-%COMP%]{--lu-tag-background: var(--lu-yellow-80);--lu-tag-border: var(--lu-yellow-80);--lu-tag-text: var(--lu-black-80)}[data-lu-color=blue][_nghost-%COMP%]{--lu-tag-background: var(--lu-blue-100);--lu-tag-border: var(--lu-blue-100);--lu-tag-text: var(--lu-white)}[data-lu-color=red][_nghost-%COMP%]{--lu-tag-background: var(--lu-red-100);--lu-tag-border: var(--lu-red-100);--lu-tag-text: var(--lu-white)}[data-lu-color=orange][_nghost-%COMP%]{--lu-tag-background: var(--lu-orange-100);--lu-tag-border: var(--lu-orange-100);--lu-tag-text: var(--lu-white)}[data-lu-color=green][_nghost-%COMP%]{--lu-tag-background: var(--lu-green-100);--lu-tag-border: var(--lu-green-100);--lu-tag-text: var(--lu-white)}[data-lu-color=black][_nghost-%COMP%]{--lu-tag-background: var(--lu-black-40);--lu-tag-border: var(--lu-black-40);--lu-tag-text: var(--lu-white)}[data-lu-color=purple][_nghost-%COMP%]{--lu-tag-background: var(--lu-purple-100);--lu-tag-border: var(--lu-purple-100);--lu-tag-text: var(--lu-white)}[data-lu-type=light][_nghost-%COMP%]{--lu-font-weight: normal;--lu-svg-icon-color: var(--lu-black-40)}[data-lu-type=light][data-lu-color=default][_nghost-%COMP%]{--lu-tag-background: var(--lu-black-15);--lu-tag-border: var(--lu-black-15);--lu-tag-text: var(--lu-black-100)}[data-lu-type=light][data-lu-color=teal][_nghost-%COMP%]{--lu-tag-background: var(--lu-teal-30);--lu-tag-border: var(--lu-teal-30);--lu-tag-text: var(--lu-black-100)}[data-lu-type=light][data-lu-color=yellow][_nghost-%COMP%]{--lu-tag-background: var(--lu-yellow-30);--lu-tag-border: var(--lu-yellow-30);--lu-tag-text: var(--lu-black-100)}[data-lu-type=light][data-lu-color=blue][_nghost-%COMP%]{--lu-tag-background: var(--lu-blue-30);--lu-tag-border: var(--lu-blue-30);--lu-tag-text: var(--lu-black-100)}[data-lu-type=light][data-lu-color=red][_nghost-%COMP%]{--lu-tag-background: var(--lu-red-30);--lu-tag-border: var(--lu-red-30);--lu-tag-text: var(--lu-black-100)}[data-lu-type=light][data-lu-color=orange][_nghost-%COMP%]{--lu-tag-background: var(--lu-orange-30);--lu-tag-border: var(--lu-orange-30);--lu-tag-text: var(--lu-black-100)}[data-lu-type=light][data-lu-color=green][_nghost-%COMP%]{--lu-tag-background: var(--lu-green-30);--lu-tag-border: var(--lu-green-30);--lu-tag-text: var(--lu-black-100)}[data-lu-type=light][data-lu-color=black][_nghost-%COMP%]{--lu-tag-background: var(--lu-black-15);--lu-tag-border: var(--lu-black-15);--lu-tag-text: var(--lu-black-100)}[data-lu-type=light][data-lu-color=purple][_nghost-%COMP%]{--lu-tag-background: var(--lu-purple-30);--lu-tag-border: var(--lu-purple-30);--lu-tag-text: var(--lu-black-100)}[data-lu-type=outline][_nghost-%COMP%]{--lu-font-weight: normal;--lu-svg-icon-color: var(--lu-black-40)}[data-lu-type=outline][data-lu-color=default][_nghost-%COMP%]{--lu-tag-background: var(--lu-white);--lu-tag-border: var(--lu-black-15);--lu-tag-color-color: var(--lu-black-54)}[data-lu-type=outline][data-lu-color=teal][_nghost-%COMP%]{--lu-tag-background: var(--lu-white);--lu-tag-text: var(--lu-black-54);--lu-tag-border: var(--lu-teal-20)}[data-lu-type=outline][data-lu-color=yellow][_nghost-%COMP%]{--lu-tag-background: var(--lu-white);--lu-tag-text: var(--lu-black-54);--lu-tag-border: var(--lu-yellow-20)}[data-lu-type=outline][data-lu-color=blue][_nghost-%COMP%]{--lu-tag-background: var(--lu-white);--lu-tag-text: var(--lu-black-54);--lu-tag-border: var(--lu-blue-20)}[data-lu-type=outline][data-lu-color=red][_nghost-%COMP%]{--lu-tag-background: var(--lu-white);--lu-tag-text: var(--lu-black-54);--lu-tag-border: var(--lu-red-20)}[data-lu-type=outline][data-lu-color=orange][_nghost-%COMP%]{--lu-tag-background: var(--lu-white);--lu-tag-text: var(--lu-black-54);--lu-tag-border: var(--lu-orange-20)}[data-lu-type=outline][data-lu-color=green][_nghost-%COMP%]{--lu-tag-background: var(--lu-white);--lu-tag-text: var(--lu-black-54);--lu-tag-border: var(--lu-green-20)}[data-lu-type=outline][data-lu-color=black][_nghost-%COMP%]{--lu-tag-background: var(--lu-white);--lu-tag-text: var(--lu-black-54);--lu-tag-border: var(--lu-black-15)}[data-lu-type=outline][data-lu-color=purple][_nghost-%COMP%]{--lu-tag-background: var(--lu-white);--lu-tag-text: var(--lu-black-54);--lu-tag-border: var(--lu-purple-20)}[data-lu-with-icon=true][_nghost-%COMP%]{--lu-svg-icon-width: 24px;--lu-svg-icon-height: 22px}.lu-tag-icon[_ngcontent-%COMP%]{display:flex}.lu-tag-icon_left[_ngcontent-%COMP%]:not(:empty){margin-left:calc(var(--lu-base-gutter) * -1)}.lu-tag-icon_right[_ngcontent-%COMP%]:not(:empty){margin-right:calc(var(--lu-base-gutter) * -1)}"],
+        changeDetection: 0
+      }), C;
+    })(),
+    L = (() => {
+      class C {}
+      return C.ɵfac = function (f) {
+        return new (f || C)();
+      }, C.ɵmod = t.oAB({
+        type: C
+      }), C.ɵinj = t.cJS({
+        imports: [a.ez, e.h, m.aI]
+      }), C;
+    })();
+});

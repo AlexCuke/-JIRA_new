@@ -1,0 +1,1 @@
+[_nghost-%COMP%]{display:flex;flex-direction:row}.row[_ngcontent-%COMP%]{margin-bottom:calc(var(--lu-base-gutter) / 2)}.cell[_ngcontent-%COMP%]{display:flex;flex-direction:column}.cell[_ngcontent-%COMP%]:not(:last-child){margin-right:var(--lu-base-gutter)}

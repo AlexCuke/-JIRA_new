@@ -1,0 +1,27 @@
+{
+  "parsedFactories": 885,
+  "components": 423,
+  "missingModuleIds": [],
+  "originalHashes": [
+    {
+      "name": "runtime",
+      "bytes": 6448,
+      "sha256": "24daf94d8cdb06e246ad01c53127c8b2dfd4a10dba0dd76fcf012066a5d348f6"
+    },
+    {
+      "name": "polyfills",
+      "bytes": 77121,
+      "sha256": "4f856ce09de05032ad19832a66bbe78411fa0b25ac5b297a84deb554233f950f"
+    },
+    {
+      "name": "main",
+      "bytes": 12854170,
+      "sha256": "b21da58df807a6a114b8b95ee6a4a987b34cd8b6da995bacfb928ebfdaab6b11"
+    },
+    {
+      "name": "operations",
+      "bytes": 60615,
+      "sha256": "e11a06aafcf07ee10f3fa8041d22fec180f30aa8b005b3dc2424d57d05ba66b6"
+    }
+  ]
+}

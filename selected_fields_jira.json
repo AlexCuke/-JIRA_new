@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "url": "http://jira.oblteh:8080/browse/REFACT-529",
+  "saved_at": "2026-09-08T11:08:40.413912+00:00",
+  "fields": [
+    {
+      "label": "Проект",
+      "selector": "#project-field"
+    },
+    {
+      "label": "Тип",
+      "selector": "#issuetype-field"
+    },
+    {
+      "label": "Описание",
+      "selector": "#mce_0"
+    },
+    {
+      "label": "Название",
+      "selector": "#summary"
+    },
+    {
+      "label": "Исправить_в_версиях",
+      "selector": "#fixVersions-textarea"
+    },
+    {
+      "label": "Приоритет",
+      "selector": "#priority-field"
+    },
+    {
+      "label": "Метки",
+      "selector": "#labels-textarea"
+    },
+    {
+      "label": "Вложенные_файлы_Опции",
+      "selector": "#attachment-browse-button"
+    },
+    {
+      "label": "Исполнитель",
+      "selector": "#assignee-field"
+    },
+    {
+      "label": "Тестировщик",
+      "selector": "#customfield_10400-field"
+    },
+    {
+      "label": "Разработчик",
+      "selector": "#customfield_10500-field"
+    },
+    {
+      "label": "Срок_Исполнения",
+      "selector": "#duedate"
+    }
+  ]
+}

@@ -1,0 +1,843 @@
+2026-09-07 15:34:04,175 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-07 15:34:04,442 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-07 15:34:05,045 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21469
+2026-09-07 15:34:11,771 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-07 15:34:41,783 | INFO | system=destination_jira event=session_active url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-07 15:36:42,152 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:36:42,196 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:36:42,659 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:37:13,374 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-07 15:37:13,512 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-07 15:37:14,237 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21469
+2026-09-07 15:37:21,205 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:37:21,245 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:37:21,564 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:37:21,564 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-07 15:38:27,482 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21496&page_caps=&user_role=
+2026-09-07 15:38:27,734 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21496&page_caps=&user_role=
+2026-09-07 15:38:28,616 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1828
+2026-09-07 15:38:38,016 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:38:38,061 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:38:38,365 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:38:38,365 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-07 15:39:13,342 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21496&page_caps=&user_role=
+2026-09-07 15:39:13,468 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21496&page_caps=&user_role=
+2026-09-07 15:39:14,128 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1828
+2026-09-07 15:39:23,473 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:39:23,519 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:39:23,897 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:39:23,897 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-07 15:42:28,905 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-07 15:42:29,036 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-07 15:42:29,736 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21469
+2026-09-07 15:42:42,760 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:42:42,799 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:42:43,142 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:42:43,143 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-07 15:43:42,309 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:43:42,343 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:43:42,631 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:43:58,606 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:43:58,647 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:43:58,937 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:43:58,937 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-07 15:43:59,327 | INFO | system=destination_jira event=open_issue_fields
+2026-09-07 15:48:53,600 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21496&page_caps=&user_role=
+2026-09-07 15:48:53,864 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21496&page_caps=&user_role=
+2026-09-07 15:48:54,522 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1828
+2026-09-07 15:49:03,406 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:49:03,452 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:49:03,786 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 15:49:03,786 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-07 15:49:04,169 | INFO | system=destination_jira event=open_issue_fields
+2026-09-07 16:05:29,481 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21496&page_caps=&user_role=
+2026-09-07 16:05:29,715 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21496&page_caps=&user_role=
+2026-09-07 16:05:30,416 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1828
+2026-09-07 16:05:39,728 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 16:05:39,762 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 16:05:40,083 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 16:05:40,083 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-07 16:05:40,453 | INFO | system=destination_jira event=open_issue_fields
+2026-09-07 16:10:50,513 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-07 16:10:50,777 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-07 16:10:51,424 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21469
+2026-09-07 16:13:43,806 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-07 16:13:43,945 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-07 16:13:48,968 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-07 16:13:49,113 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-07 16:13:49,684 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21469
+2026-09-07 16:14:15,016 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-07 16:14:15,151 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-07 16:14:15,780 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21469
+2026-09-07 16:14:23,196 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 16:14:23,241 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 16:14:23,653 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-07 16:14:23,653 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-07 16:14:24,083 | INFO | system=destination_jira event=open_issue_fields
+2026-09-07 16:25:36,722 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-07 16:25:36,868 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-07 16:25:37,757 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21469
+2026-09-08 08:21:35,552 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-08 08:21:35,658 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-08 08:21:36,184 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21469
+2026-09-08 12:44:54,674 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-08 12:44:54,818 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-08 12:44:55,484 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21469
+2026-09-08 12:45:40,577 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-08 12:45:40,718 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-08 12:45:41,734 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21469
+2026-09-08 12:46:07,099 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21626&page_caps=&user_role=
+2026-09-08 12:46:07,239 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21626&page_caps=&user_role=
+2026-09-08 12:46:07,941 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21626
+2026-09-08 12:48:57,304 | INFO | system=redmine event=login_check url=https://rm.oblteh.ru/redmine/login?back_url=http%3A%2F%2Frm.oblteh.ru%2Fredmine%2Fprojects%2Fmehr%2Fissues%2Fnew
+2026-09-08 12:48:57,327 | INFO | system=redmine event=login_submit url=https://rm.oblteh.ru/redmine/login?back_url=http%3A%2F%2Frm.oblteh.ru%2Fredmine%2Fprojects%2Fmehr%2Fissues%2Fnew
+2026-09-08 12:48:57,715 | INFO | system=redmine event=login_success url=https://rm.oblteh.ru/redmine/projects/mehr/issues/new
+2026-09-08 13:47:22,057 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21581&page_caps=&user_role=
+2026-09-08 13:47:22,197 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21581&page_caps=&user_role=
+2026-09-08 13:47:23,027 | INFO | system=source_jira event=login_success url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21581&page_caps=&user_role=
+2026-09-08 13:47:32,181 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21581&page_caps=&user_role=
+2026-09-08 13:47:32,307 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21581&page_caps=&user_role=
+2026-09-08 13:47:32,861 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21581
+2026-09-08 13:48:39,619 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21581&page_caps=&user_role=
+2026-09-08 13:48:39,767 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21581&page_caps=&user_role=
+2026-09-08 13:48:40,408 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21581
+2026-09-08 13:49:31,704 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21581&page_caps=&user_role=
+2026-09-08 13:49:31,888 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21581&page_caps=&user_role=
+2026-09-08 13:49:32,682 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21581
+2026-09-08 13:49:53,858 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21581&page_caps=&user_role=
+2026-09-08 13:49:54,722 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21581&page_caps=&user_role=
+2026-09-08 13:49:55,304 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21581
+2026-09-08 13:50:46,222 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21581&page_caps=&user_role=
+2026-09-08 13:50:46,350 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21581&page_caps=&user_role=
+2026-09-08 13:50:46,933 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21581
+2026-09-08 13:54:45,761 | INFO | system=redmine event=login_check url=https://rm.oblteh.ru/redmine/login?back_url=http%3A%2F%2Frm.oblteh.ru%2Fredmine%2Fprojects%2Fmehr%2Fissues%2Fnew
+2026-09-08 13:54:45,788 | INFO | system=redmine event=login_submit url=https://rm.oblteh.ru/redmine/login?back_url=http%3A%2F%2Frm.oblteh.ru%2Fredmine%2Fprojects%2Fmehr%2Fissues%2Fnew
+2026-09-08 13:54:46,078 | INFO | system=redmine event=login_success url=https://rm.oblteh.ru/redmine/projects/mehr/issues/new
+2026-09-08 13:59:00,917 | INFO | system=redmine event=login_check url=https://rm.oblteh.ru/redmine/login?back_url=http%3A%2F%2Frm.oblteh.ru%2Fredmine%2Fprojects%2Fmehr%2Fissues%2Fnew
+2026-09-08 13:59:00,945 | INFO | system=redmine event=login_submit url=https://rm.oblteh.ru/redmine/login?back_url=http%3A%2F%2Frm.oblteh.ru%2Fredmine%2Fprojects%2Fmehr%2Fissues%2Fnew
+2026-09-08 13:59:01,245 | INFO | system=redmine event=login_success url=https://rm.oblteh.ru/redmine/projects/mehr/issues/new
+2026-09-08 14:00:59,675 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-08 14:00:59,821 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-08 14:01:00,535 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21469
+2026-09-08 14:02:34,140 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-08 14:02:34,288 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-08 14:02:35,045 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21469
+2026-09-08 14:03:07,971 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-08 14:03:08,116 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-08 14:03:08,769 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21469
+2026-09-08 14:05:34,762 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-08 14:05:34,896 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21469&page_caps=&user_role=
+2026-09-08 14:05:35,513 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21469
+2026-09-08 15:07:16,296 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1941&page_caps=&user_role=
+2026-09-08 15:07:16,435 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1941&page_caps=&user_role=
+2026-09-08 15:07:17,168 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1941
+2026-09-08 15:20:26,973 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-1941&page_caps=&user_role=
+2026-09-08 15:20:27,214 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-1941&page_caps=&user_role=
+2026-09-08 15:20:27,835 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-1941
+2026-09-08 15:20:29,287 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:20:29,324 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:20:29,700 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:20:29,700 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-08 15:20:30,150 | INFO | system=destination_jira event=open_issue_fields
+2026-09-08 15:21:49,205 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:21:49,248 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:21:49,611 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:21:49,611 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-08 15:21:50,038 | INFO | system=destination_jira event=open_issue_fields
+2026-09-08 15:22:21,040 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-1941&page_caps=&user_role=
+2026-09-08 15:22:21,182 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-1941&page_caps=&user_role=
+2026-09-08 15:22:22,461 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-1941
+2026-09-08 15:22:23,492 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:22:23,538 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:22:23,854 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:22:23,854 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-08 15:22:24,296 | INFO | system=destination_jira event=open_issue_fields
+2026-09-08 15:24:08,243 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-1941&page_caps=&user_role=
+2026-09-08 15:24:08,377 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-1941&page_caps=&user_role=
+2026-09-08 15:24:09,026 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-1941
+2026-09-08 15:24:10,458 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:24:10,500 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:24:10,829 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:24:10,829 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-08 15:24:11,301 | INFO | system=destination_jira event=open_issue_fields
+2026-09-08 15:25:08,563 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-1941&page_caps=&user_role=
+2026-09-08 15:25:08,704 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-1941&page_caps=&user_role=
+2026-09-08 15:25:09,533 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-1941
+2026-09-08 15:25:10,529 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:25:10,573 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:25:10,849 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:25:10,850 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-08 15:25:11,335 | INFO | system=destination_jira event=open_issue_fields
+2026-09-08 15:25:46,253 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1941&page_caps=&user_role=
+2026-09-08 15:25:46,383 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1941&page_caps=&user_role=
+2026-09-08 15:25:47,145 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1941
+2026-09-08 15:26:06,657 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1941&page_caps=&user_role=
+2026-09-08 15:26:06,789 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1941&page_caps=&user_role=
+2026-09-08 15:26:07,291 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1941
+2026-09-08 15:26:13,128 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:26:13,167 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:26:13,546 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:26:13,547 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-08 15:26:14,050 | INFO | system=destination_jira event=open_issue_fields
+2026-09-08 15:31:29,257 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 15:31:29,387 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 15:31:30,105 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/REFACT-6691
+2026-09-08 15:32:11,052 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:32:11,094 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:32:11,518 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:32:11,518 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-08 15:32:11,975 | INFO | system=destination_jira event=open_issue_fields
+2026-09-08 15:47:21,615 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 15:47:21,856 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 15:47:22,724 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/REFACT-6691
+2026-09-08 15:47:29,125 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:47:29,162 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:47:29,559 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:47:29,559 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-08 15:47:30,006 | INFO | system=destination_jira event=open_issue_fields
+2026-09-08 15:54:53,523 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-1421&page_caps=&user_role=
+2026-09-08 15:54:53,663 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-1421&page_caps=&user_role=
+2026-09-08 15:54:54,443 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-1421
+2026-09-08 15:54:55,453 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:54:55,494 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:54:55,876 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:54:55,876 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-08 15:54:56,365 | INFO | system=destination_jira event=open_issue_fields
+2026-09-08 15:55:11,479 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 15:55:11,619 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 15:55:12,475 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/REFACT-6691
+2026-09-08 15:55:18,839 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:55:18,883 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:55:19,149 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:55:19,149 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-08 15:55:19,651 | INFO | system=destination_jira event=open_issue_fields
+2026-09-08 15:55:59,907 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 15:56:00,053 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 15:56:00,689 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/REFACT-6691
+2026-09-08 15:56:06,568 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:56:06,615 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:56:07,016 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:56:07,016 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-08 15:56:07,500 | INFO | system=destination_jira event=open_issue_fields
+2026-09-08 15:56:18,940 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 15:56:19,076 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 15:56:19,638 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/REFACT-6691
+2026-09-08 15:56:25,496 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:56:25,538 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:56:25,818 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:56:25,819 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-08 15:56:26,320 | INFO | system=destination_jira event=open_issue_fields
+2026-09-08 15:59:14,971 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 15:59:15,218 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 15:59:15,911 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/REFACT-6691
+2026-09-08 15:59:21,803 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:59:21,851 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:59:24,084 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 15:59:24,084 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-08 15:59:29,919 | INFO | system=destination_jira event=open_issue_fields
+2026-09-08 16:00:16,635 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1420&page_caps=&user_role=
+2026-09-08 16:00:16,773 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1420&page_caps=&user_role=
+2026-09-08 16:00:17,415 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/REFACT-6690
+2026-09-08 16:00:23,212 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 16:00:23,253 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 16:00:23,679 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 16:00:23,679 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-08 16:00:24,153 | INFO | system=destination_jira event=open_issue_fields
+2026-09-08 16:02:02,531 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 16:02:04,426 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 16:02:06,184 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/REFACT-6691
+2026-09-08 16:02:06,649 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1420&page_caps=&user_role=
+2026-09-08 16:02:09,539 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1420&page_caps=&user_role=
+2026-09-08 16:02:13,342 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/REFACT-6690
+2026-09-08 16:02:13,482 | ERROR | system=source_jira event=wrong_issue_page expected=https://jira.mos.social/browse/KISEMIAS2025-1421 actual=https://jira.mos.social/browse/REFACT-6691
+2026-09-08 16:02:19,594 | ERROR | system=source_jira event=wrong_issue_page expected=https://jira.mos.social/browse/KISEMIAS2025-1420 actual=https://jira.mos.social/browse/REFACT-6690
+2026-09-08 16:02:58,653 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 16:03:00,551 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 16:03:02,603 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/REFACT-6691
+2026-09-08 16:03:10,083 | ERROR | system=source_jira event=wrong_issue_page expected=https://jira.mos.social/browse/KISEMIAS2025-1421 actual=https://jira.mos.social/browse/REFACT-6691
+2026-09-08 16:03:34,236 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 16:03:35,092 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 16:03:37,566 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/REFACT-6691
+2026-09-08 16:03:41,755 | ERROR | system=source_jira event=wrong_issue_page expected=https://jira.mos.social/browse/KISEMIAS2025-1421 actual=https://jira.mos.social/browse/REFACT-6691
+2026-09-08 16:04:00,757 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1420&page_caps=&user_role=
+2026-09-08 16:04:01,609 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1420&page_caps=&user_role=
+2026-09-08 16:04:03,632 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/REFACT-6690
+2026-09-08 16:04:35,526 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 16:04:36,373 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 16:04:39,406 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/REFACT-6691
+2026-09-08 16:04:41,558 | ERROR | system=source_jira event=wrong_issue_page expected=https://jira.mos.social/browse/KISEMIAS2025-1421 actual=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 16:05:11,187 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 16:05:12,024 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 16:05:15,587 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/REFACT-6691
+2026-09-08 16:05:23,086 | INFO | system=source_jira event=same_issue_new_key expected=https://jira.mos.social/browse/KISEMIAS2025-1421 actual=https://jira.mos.social/browse/REFACT-6691 issue_id=2557232
+2026-09-08 16:05:23,108 | INFO | system=source_jira event=source_issue_verified url=https://jira.mos.social/browse/KISEMIAS2025-1421
+2026-09-08 16:06:39,367 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 16:06:39,699 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 16:06:42,041 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/REFACT-6691
+2026-09-08 16:06:46,208 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 16:06:46,341 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1421&page_caps=&user_role=
+2026-09-08 16:06:49,601 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/REFACT-6691
+2026-09-08 16:06:55,925 | INFO | system=source_jira event=same_issue_new_key expected=https://jira.mos.social/browse/KISEMIAS2025-1421 actual=https://jira.mos.social/browse/REFACT-6691 issue_id=2557232
+2026-09-08 16:06:55,939 | INFO | system=source_jira event=source_issue_verified url=https://jira.mos.social/browse/KISEMIAS2025-1421
+2026-09-08 16:07:01,484 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 16:07:01,525 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 16:07:02,005 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 16:07:02,005 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-08 16:07:02,426 | INFO | system=destination_jira event=open_issue_fields
+2026-09-08 16:07:37,601 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1941&page_caps=&user_role=
+2026-09-08 16:07:41,015 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1941&page_caps=&user_role=
+2026-09-08 16:07:42,481 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1941
+2026-09-08 16:07:49,203 | INFO | system=source_jira event=source_issue_verified url=https://jira.mos.social/browse/KISEMIAS2025-1941
+2026-09-08 16:07:54,761 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 16:07:54,803 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 16:07:55,196 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 16:07:55,196 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-08 16:07:55,678 | INFO | system=destination_jira event=open_issue_fields
+2026-09-08 16:10:11,367 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1941&page_caps=&user_role=
+2026-09-08 16:10:12,720 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1941&page_caps=&user_role=
+2026-09-08 16:10:13,346 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1941
+2026-09-08 16:10:21,256 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 16:10:21,301 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 16:10:21,593 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 16:10:21,593 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-08 16:10:21,997 | INFO | system=destination_jira event=open_issue_fields
+2026-09-08 16:13:36,705 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1941&page_caps=&user_role=
+2026-09-08 16:13:39,078 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1941&page_caps=&user_role=
+2026-09-08 16:13:40,984 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1941
+2026-09-08 16:13:50,450 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 16:13:50,495 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 16:13:50,919 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 16:13:50,919 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-08 16:13:51,400 | INFO | system=destination_jira event=open_issue_fields
+2026-09-08 16:20:30,933 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21265&page_caps=&user_role=
+2026-09-08 16:20:32,288 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21265&page_caps=&user_role=
+2026-09-08 16:20:34,338 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21265
+2026-09-08 16:20:38,799 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 16:20:38,842 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 16:20:39,167 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-08 16:20:39,167 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-08 16:20:39,706 | INFO | system=destination_jira event=open_issue_fields
+2026-09-08 16:21:54,275 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21625&page_caps=&user_role=
+2026-09-08 16:21:55,130 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21625&page_caps=&user_role=
+2026-09-08 16:21:55,820 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21625
+2026-09-08 16:21:56,983 | INFO | system=redmine event=login_check url=https://rm.oblteh.ru/redmine/login?back_url=http%3A%2F%2Frm.oblteh.ru%2Fredmine%2Fprojects%2Fmehr%2Fissues%2Fnew
+2026-09-08 16:21:56,999 | INFO | system=redmine event=login_submit url=https://rm.oblteh.ru/redmine/login?back_url=http%3A%2F%2Frm.oblteh.ru%2Fredmine%2Fprojects%2Fmehr%2Fissues%2Fnew
+2026-09-08 16:21:57,297 | INFO | system=redmine event=login_success url=https://rm.oblteh.ru/redmine/projects/mehr/issues/new
+2026-09-08 16:54:15,137 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21625&page_caps=&user_role=
+2026-09-08 16:54:15,266 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21625&page_caps=&user_role=
+2026-09-08 16:54:15,892 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21625
+2026-09-08 16:54:16,528 | INFO | system=redmine event=login_check url=https://rm.oblteh.ru/redmine/login?back_url=http%3A%2F%2Frm.oblteh.ru%2Fredmine%2Fprojects%2Fmehr%2Fissues%2Fnew
+2026-09-08 16:54:16,546 | INFO | system=redmine event=login_submit url=https://rm.oblteh.ru/redmine/login?back_url=http%3A%2F%2Frm.oblteh.ru%2Fredmine%2Fprojects%2Fmehr%2Fissues%2Fnew
+2026-09-08 16:54:16,831 | INFO | system=redmine event=login_success url=https://rm.oblteh.ru/redmine/projects/mehr/issues/new
+2026-09-08 16:55:36,385 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21625&page_caps=&user_role=
+2026-09-08 16:55:36,522 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21625&page_caps=&user_role=
+2026-09-08 16:55:37,137 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21625
+2026-09-08 16:55:38,155 | INFO | system=redmine event=login_check url=https://rm.oblteh.ru/redmine/login?back_url=http%3A%2F%2Frm.oblteh.ru%2Fredmine%2Fprojects%2Fmehr%2Fissues%2Fnew
+2026-09-08 16:55:38,171 | INFO | system=redmine event=login_submit url=https://rm.oblteh.ru/redmine/login?back_url=http%3A%2F%2Frm.oblteh.ru%2Fredmine%2Fprojects%2Fmehr%2Fissues%2Fnew
+2026-09-08 16:55:38,467 | INFO | system=redmine event=login_success url=https://rm.oblteh.ru/redmine/projects/mehr/issues/new
+2026-09-08 16:55:44,921 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21625&page_caps=&user_role=
+2026-09-08 16:55:45,081 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21625&page_caps=&user_role=
+2026-09-08 16:55:45,587 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21625
+2026-09-08 16:55:46,629 | INFO | system=redmine event=login_check url=https://rm.oblteh.ru/redmine/login?back_url=http%3A%2F%2Frm.oblteh.ru%2Fredmine%2Fprojects%2Fmehr%2Fissues%2Fnew
+2026-09-08 16:55:46,646 | INFO | system=redmine event=login_submit url=https://rm.oblteh.ru/redmine/login?back_url=http%3A%2F%2Frm.oblteh.ru%2Fredmine%2Fprojects%2Fmehr%2Fissues%2Fnew
+2026-09-08 16:55:46,976 | INFO | system=redmine event=login_success url=https://rm.oblteh.ru/redmine/projects/mehr/issues/new
+2026-09-08 16:57:05,331 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21625&page_caps=&user_role=
+2026-09-08 16:57:05,464 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21625&page_caps=&user_role=
+2026-09-08 16:57:06,059 | INFO | system=source_jira event=login_success url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21625&page_caps=&user_role=
+2026-09-08 16:57:41,824 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21625&page_caps=&user_role=
+2026-09-08 16:57:41,960 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21625&page_caps=&user_role=
+2026-09-08 16:57:42,501 | INFO | system=source_jira event=login_success url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21625&page_caps=&user_role=
+2026-09-08 16:58:04,257 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21625&page_caps=&user_role=
+2026-09-08 16:58:04,385 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21625&page_caps=&user_role=
+2026-09-08 16:58:05,371 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21625
+2026-09-08 16:58:05,913 | INFO | system=redmine event=login_check url=https://rm.oblteh.ru/redmine/login?back_url=http%3A%2F%2Frm.oblteh.ru%2Fredmine%2Fprojects%2Fmehr%2Fissues%2Fnew
+2026-09-08 16:58:05,930 | INFO | system=redmine event=login_submit url=https://rm.oblteh.ru/redmine/login?back_url=http%3A%2F%2Frm.oblteh.ru%2Fredmine%2Fprojects%2Fmehr%2Fissues%2Fnew
+2026-09-08 16:58:06,223 | INFO | system=redmine event=login_success url=https://rm.oblteh.ru/redmine/projects/mehr/issues/new
+2026-09-08 16:58:11,963 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21625&page_caps=&user_role=
+2026-09-08 16:58:12,099 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21625&page_caps=&user_role=
+2026-09-08 16:58:12,656 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21625
+2026-09-08 16:58:13,275 | INFO | system=redmine event=login_check url=https://rm.oblteh.ru/redmine/login?back_url=http%3A%2F%2Frm.oblteh.ru%2Fredmine%2Fprojects%2Fmehr%2Fissues%2Fnew
+2026-09-08 16:58:13,292 | INFO | system=redmine event=login_submit url=https://rm.oblteh.ru/redmine/login?back_url=http%3A%2F%2Frm.oblteh.ru%2Fredmine%2Fprojects%2Fmehr%2Fissues%2Fnew
+2026-09-08 16:58:13,566 | INFO | system=redmine event=login_success url=https://rm.oblteh.ru/redmine/projects/mehr/issues/new
+2026-09-09 12:01:02,799 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21654&page_caps=&user_role=
+2026-09-09 12:01:02,940 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21654&page_caps=&user_role=
+2026-09-09 12:01:03,770 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21654
+2026-09-09 12:01:10,239 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-09 12:01:10,304 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-09 12:01:10,681 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-09 12:01:10,682 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-09 12:01:11,231 | INFO | system=destination_jira event=open_issue_fields
+2026-09-09 12:03:50,899 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21654&page_caps=&user_role=
+2026-09-09 12:03:51,123 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21654&page_caps=&user_role=
+2026-09-09 12:03:51,769 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21654
+2026-09-09 12:03:58,130 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-09 12:03:58,169 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-09 12:03:58,571 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-09 12:03:58,571 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-09 12:03:58,981 | INFO | system=destination_jira event=open_issue_fields
+2026-09-09 12:04:15,174 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21654&page_caps=&user_role=
+2026-09-09 12:04:15,305 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21654&page_caps=&user_role=
+2026-09-09 12:04:16,035 | INFO | system=source_jira event=login_success url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21654&page_caps=&user_role=
+2026-09-09 12:04:30,446 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21654&page_caps=&user_role=
+2026-09-09 12:04:30,641 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21654&page_caps=&user_role=
+2026-09-09 12:04:31,208 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21654
+2026-09-09 12:04:37,121 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-09 12:04:37,181 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-09 12:04:37,505 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-09 12:04:37,505 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-09 12:04:37,963 | INFO | system=destination_jira event=open_issue_fields
+2026-09-09 12:07:22,756 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21654&page_caps=&user_role=
+2026-09-09 12:07:22,897 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21654&page_caps=&user_role=
+2026-09-09 12:07:23,576 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21654
+2026-09-09 12:07:29,902 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-09 12:07:29,943 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-09 12:07:30,417 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-09 12:07:30,417 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-09 12:07:30,847 | INFO | system=destination_jira event=open_issue_fields
+2026-09-10 08:28:53,356 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FREFACT-5841&page_caps=&user_role=
+2026-09-10 08:28:53,513 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FREFACT-5841&page_caps=&user_role=
+2026-09-10 08:28:54,030 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/REFACT-5841
+2026-09-10 08:28:59,849 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 08:28:59,888 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 08:29:00,115 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 08:29:00,115 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-10 08:29:00,658 | INFO | system=destination_jira event=open_issue_fields
+2026-09-10 13:30:20,931 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 13:30:21,032 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 13:30:21,538 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21641
+2026-09-10 13:30:22,542 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 13:30:22,581 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 13:30:22,924 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 13:30:22,924 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-10 13:30:23,381 | INFO | system=destination_jira event=open_issue_fields
+2026-09-10 13:35:41,385 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21643&page_caps=&user_role=
+2026-09-10 13:35:41,521 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21643&page_caps=&user_role=
+2026-09-10 13:35:42,193 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21643
+2026-09-10 13:36:10,078 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21643&page_caps=&user_role=
+2026-09-10 13:36:10,218 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21643&page_caps=&user_role=
+2026-09-10 13:36:10,734 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21643
+2026-09-10 13:37:51,599 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21643&page_caps=&user_role=
+2026-09-10 13:37:51,743 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21643&page_caps=&user_role=
+2026-09-10 13:37:51,783 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21643&page_caps=&user_role=
+2026-09-10 13:38:42,250 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21643&page_caps=&user_role=
+2026-09-10 13:38:42,495 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21643&page_caps=&user_role=
+2026-09-10 13:38:42,539 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21643&page_caps=&user_role=
+2026-09-10 13:39:02,368 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21643&page_caps=&user_role=
+2026-09-10 13:39:02,508 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21643&page_caps=&user_role=
+2026-09-10 13:39:02,558 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21643&page_caps=&user_role=
+2026-09-10 13:39:03,763 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21643
+2026-09-10 13:39:09,298 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 13:39:09,340 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 13:39:09,632 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 13:39:09,632 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-10 13:39:10,119 | INFO | system=destination_jira event=open_issue_fields
+2026-09-10 13:43:24,073 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21642&page_caps=&user_role=
+2026-09-10 13:43:24,219 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21642&page_caps=&user_role=
+2026-09-10 13:43:24,266 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21642&page_caps=&user_role=
+2026-09-10 13:43:25,648 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21642
+2026-09-10 13:43:57,135 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21642&page_caps=&user_role=
+2026-09-10 13:43:57,385 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21642&page_caps=&user_role=
+2026-09-10 13:43:57,431 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21642&page_caps=&user_role=
+2026-09-10 13:44:20,512 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21642&page_caps=&user_role=
+2026-09-10 13:44:20,648 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21642&page_caps=&user_role=
+2026-09-10 13:44:20,690 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21642&page_caps=&user_role=
+2026-09-10 13:44:21,948 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21642
+2026-09-10 13:44:27,476 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 13:44:27,514 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 13:44:27,805 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 13:44:27,805 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-10 13:44:28,243 | INFO | system=destination_jira event=open_issue_fields
+2026-09-10 13:44:31,784 | INFO | system=destination_jira event=assignee_set name=Давыдов Александр
+2026-09-10 13:47:35,433 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21654&page_caps=&user_role=
+2026-09-10 13:47:35,554 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21654&page_caps=&user_role=
+2026-09-10 13:47:35,603 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21654&page_caps=&user_role=
+2026-09-10 13:47:36,843 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21654
+2026-09-10 13:47:42,373 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 13:47:42,410 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 13:47:42,728 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 13:47:42,728 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-10 13:47:43,147 | INFO | system=destination_jira event=open_issue_fields
+2026-09-10 13:47:46,647 | INFO | system=destination_jira event=assignee_set name=Давыдов Александр
+2026-09-10 13:48:32,199 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21654&page_caps=&user_role=
+2026-09-10 13:48:32,346 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21654&page_caps=&user_role=
+2026-09-10 13:48:32,383 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21654&page_caps=&user_role=
+2026-09-10 13:48:33,608 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21654
+2026-09-10 13:48:39,092 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 13:48:39,133 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 13:48:39,465 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 13:48:39,465 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-10 13:48:39,891 | INFO | system=destination_jira event=open_issue_fields
+2026-09-10 13:48:43,418 | INFO | system=destination_jira event=assignee_set name=Давыдов Александр
+2026-09-10 13:50:08,428 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21656&page_caps=&user_role=
+2026-09-10 13:50:08,537 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21656&page_caps=&user_role=
+2026-09-10 13:50:08,578 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21656&page_caps=&user_role=
+2026-09-10 13:50:09,752 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21656
+2026-09-10 13:50:15,253 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 13:50:15,292 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 13:50:15,569 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 13:50:15,569 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-10 13:50:15,989 | INFO | system=destination_jira event=open_issue_fields
+2026-09-10 13:50:19,473 | INFO | system=destination_jira event=assignee_set name=Давыдов Александр
+2026-09-10 13:53:19,597 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FREFACT-7038&page_caps=&user_role=
+2026-09-10 13:53:19,779 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FREFACT-7038&page_caps=&user_role=
+2026-09-10 13:53:19,820 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FREFACT-7038&page_caps=&user_role=
+2026-09-10 13:53:21,212 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/REFACT-7038
+2026-09-10 13:53:26,702 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 13:53:26,739 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 13:53:27,031 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 13:53:27,031 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-10 13:53:27,491 | INFO | system=destination_jira event=open_issue_fields
+2026-09-10 13:53:30,987 | INFO | system=destination_jira event=assignee_set name=Давыдов Александр
+2026-09-10 14:03:32,639 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21658&page_caps=&user_role=
+2026-09-10 14:03:32,790 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21658&page_caps=&user_role=
+2026-09-10 14:03:32,835 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21658&page_caps=&user_role=
+2026-09-10 14:03:34,101 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21658
+2026-09-10 14:03:39,599 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 14:03:39,639 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 14:03:39,984 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 14:03:39,984 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-10 14:03:40,391 | INFO | system=destination_jira event=open_issue_fields
+2026-09-10 14:03:43,990 | INFO | system=destination_jira event=assignee_set name=Давыдов Александр
+2026-09-10 14:14:02,286 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21503&page_caps=&user_role=
+2026-09-10 14:14:02,426 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21503&page_caps=&user_role=
+2026-09-10 14:14:02,473 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21503&page_caps=&user_role=
+2026-09-10 14:14:27,758 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21503&page_caps=&user_role=
+2026-09-10 14:14:27,892 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21503&page_caps=&user_role=
+2026-09-10 14:14:27,926 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21503&page_caps=&user_role=
+2026-09-10 14:14:29,102 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21503
+2026-09-10 14:14:29,647 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 14:14:29,686 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 14:14:29,980 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 14:14:29,980 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-10 14:14:30,524 | INFO | system=destination_jira event=open_issue_fields
+2026-09-10 14:14:33,995 | INFO | system=destination_jira event=assignee_set name=Давыдов Александр
+2026-09-10 16:04:57,731 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:04:57,888 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:04:57,928 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:04:59,125 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1577
+2026-09-10 16:05:59,880 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:06:00,024 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:06:00,071 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:06:01,904 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1577
+2026-09-10 16:06:11,537 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:06:14,979 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:06:15,018 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:06:16,225 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1577
+2026-09-10 16:06:26,866 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:06:26,993 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:06:27,032 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:06:28,531 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1577
+2026-09-10 16:06:39,934 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:06:40,074 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:06:40,120 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:06:41,753 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1577
+2026-09-10 16:07:06,965 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:07:07,130 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:07:07,165 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:07:08,379 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1577
+2026-09-10 16:07:29,122 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:07:29,254 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:07:29,297 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:07:30,523 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1577
+2026-09-10 16:07:54,323 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:07:54,463 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:07:54,502 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:07:55,947 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1577
+2026-09-10 16:08:14,942 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:08:15,072 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:08:15,110 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:08:16,291 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1577
+2026-09-10 16:08:34,274 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:08:34,460 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:08:34,503 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:08:35,689 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1577
+2026-09-10 16:08:53,303 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:08:53,430 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:08:53,474 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:08:54,842 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1577
+2026-09-10 16:09:07,553 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:09:07,697 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:09:07,742 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:09:08,964 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1577
+2026-09-10 16:09:21,233 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:09:21,364 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:09:21,405 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:09:22,850 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1577
+2026-09-10 16:09:39,398 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:09:39,537 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:09:39,584 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:09:40,998 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1577
+2026-09-10 16:10:03,347 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:10:03,482 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:10:03,525 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1577&page_caps=&user_role=
+2026-09-10 16:10:04,341 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1577
+2026-09-10 16:25:05,068 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:25:05,210 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:25:05,254 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:25:06,589 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21641
+2026-09-10 16:25:12,670 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 16:25:12,709 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 16:25:12,868 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 16:32:26,608 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:32:26,753 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:32:26,794 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:32:28,090 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21641
+2026-09-10 16:32:32,385 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 16:32:32,424 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 16:32:32,676 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 16:33:28,164 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:33:28,308 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:33:28,348 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:33:55,331 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:33:55,473 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:33:55,513 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:34:15,210 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:34:15,366 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:34:15,401 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:34:16,751 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21641
+2026-09-10 16:34:19,928 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 16:34:19,966 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 16:34:20,281 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 16:38:44,095 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:38:44,234 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:38:44,271 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:38:54,721 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:38:54,866 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:38:54,903 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:38:55,994 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21641
+2026-09-10 16:42:49,071 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:42:49,199 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:42:49,238 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21641&page_caps=&user_role=
+2026-09-10 16:42:50,623 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21641
+2026-09-10 17:33:21,176 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-288&page_caps=&user_role=
+2026-09-10 17:33:21,310 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-288&page_caps=&user_role=
+2026-09-10 17:33:21,347 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-288&page_caps=&user_role=
+2026-09-10 17:33:22,534 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-288
+2026-09-10 17:34:41,975 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-288&page_caps=&user_role=
+2026-09-10 17:34:42,113 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-288&page_caps=&user_role=
+2026-09-10 17:34:42,175 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-288&page_caps=&user_role=
+2026-09-10 17:34:43,476 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-288
+2026-09-10 17:35:23,917 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-288&page_caps=&user_role=
+2026-09-10 17:35:24,043 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-288&page_caps=&user_role=
+2026-09-10 17:35:24,082 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-288&page_caps=&user_role=
+2026-09-10 17:35:24,780 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-288
+2026-09-10 17:36:40,313 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-288&page_caps=&user_role=
+2026-09-10 17:36:42,710 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-288&page_caps=&user_role=
+2026-09-10 17:36:42,746 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-288&page_caps=&user_role=
+2026-09-10 17:36:43,866 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-288
+2026-09-10 17:49:47,087 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 17:49:47,132 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 17:49:47,414 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 17:51:55,103 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 17:51:55,148 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 17:51:55,546 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 17:53:01,804 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 17:53:01,845 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 17:53:02,180 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 17:54:07,088 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 17:54:07,133 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-10 17:54:07,452 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-11 08:43:17,558 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-11 08:43:17,716 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-11 08:43:17,748 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-11 08:43:19,026 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-278
+2026-09-11 08:44:25,371 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-11 08:44:25,511 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-11 08:44:25,558 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-11 08:44:26,637 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-278
+2026-09-11 08:45:01,070 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-11 08:45:01,212 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-11 08:45:01,247 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-11 08:45:02,413 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-278
+2026-09-11 08:50:42,803 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-11 08:50:42,970 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-11 08:50:43,016 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-11 08:50:44,195 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-278
+2026-09-11 08:53:30,702 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21107&page_caps=&user_role=
+2026-09-11 08:53:30,834 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21107&page_caps=&user_role=
+2026-09-11 08:53:30,880 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21107&page_caps=&user_role=
+2026-09-11 08:53:47,425 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21107&page_caps=&user_role=
+2026-09-11 08:53:47,556 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21107&page_caps=&user_role=
+2026-09-11 08:53:47,604 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21107&page_caps=&user_role=
+2026-09-11 08:54:03,086 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21107&page_caps=&user_role=
+2026-09-11 08:54:03,369 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21107&page_caps=&user_role=
+2026-09-11 08:54:03,412 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21107&page_caps=&user_role=
+2026-09-11 08:54:05,092 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21107
+2026-09-11 08:54:44,942 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21107&page_caps=&user_role=
+2026-09-11 08:54:45,082 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21107&page_caps=&user_role=
+2026-09-11 08:54:45,126 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21107&page_caps=&user_role=
+2026-09-11 08:54:46,341 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21107
+2026-09-11 08:56:00,693 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21107&page_caps=&user_role=
+2026-09-11 08:56:00,944 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21107&page_caps=&user_role=
+2026-09-11 08:56:00,992 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21107&page_caps=&user_role=
+2026-09-11 08:56:02,176 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21107
+2026-09-11 08:58:53,659 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-20937&page_caps=&user_role=
+2026-09-11 08:58:53,789 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-20937&page_caps=&user_role=
+2026-09-11 08:58:53,820 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-20937&page_caps=&user_role=
+2026-09-11 08:58:54,948 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-20937
+2026-09-11 08:59:07,508 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-20937&page_caps=&user_role=
+2026-09-11 08:59:07,742 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-20937&page_caps=&user_role=
+2026-09-11 08:59:07,777 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-20937&page_caps=&user_role=
+2026-09-11 08:59:31,107 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-20937&page_caps=&user_role=
+2026-09-11 08:59:31,242 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-20937&page_caps=&user_role=
+2026-09-11 08:59:31,273 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-20937&page_caps=&user_role=
+2026-09-11 08:59:32,617 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-20937
+2026-09-14 11:08:53,351 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-14 11:08:53,560 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-14 11:08:53,664 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-14 11:08:54,971 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-278
+2026-09-14 11:10:26,672 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-14 11:10:26,802 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-14 11:10:26,834 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-14 11:10:58,915 | ERROR | system=source_jira event=login_failed url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role= reason=timeout
+2026-09-14 11:11:11,908 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-14 11:11:12,024 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-14 11:11:12,083 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-14 11:11:13,272 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-278
+2026-09-14 11:12:15,694 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-14 11:12:15,820 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-14 11:12:15,853 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-14 11:12:18,054 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-278
+2026-09-14 11:12:38,428 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-14 11:12:38,558 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-14 11:12:38,589 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-278&page_caps=&user_role=
+2026-09-14 11:12:39,799 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-278
+2026-09-15 10:32:24,469 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-17194&page_caps=&user_role=
+2026-09-15 10:32:24,608 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-17194&page_caps=&user_role=
+2026-09-15 10:32:24,639 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-17194&page_caps=&user_role=
+2026-09-15 10:32:25,817 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-17194
+2026-09-15 10:32:52,923 | WARNING | system=source_jira event=linked_page_not_saved url=https://pmu-tpak.m15.dzm:15443/api/pmu/rest/getPaidServices reason=Page.goto: net::ERR_CONNECTION_TIMED_OUT at https://pmu-tpak.m15.dzm:15443/api/pmu/rest/getPaidServices
+Call log:
+  - navigating to "https://pmu-tpak.m15.dzm:15443/api/pmu/rest/getPaidServices", waiting until "domcontentloaded"
+
+2026-09-15 10:33:12,879 | INFO | system=redmine event=login_check url=https://rm.oblteh.ru/redmine/login?back_url=http%3A%2F%2Frm.oblteh.ru%2Fredmine%2Fprojects%2Fmehr%2Fissues%2Fnew
+2026-09-15 10:33:12,896 | INFO | system=redmine event=login_submit url=https://rm.oblteh.ru/redmine/login?back_url=http%3A%2F%2Frm.oblteh.ru%2Fredmine%2Fprojects%2Fmehr%2Fissues%2Fnew
+2026-09-15 10:33:13,211 | INFO | system=redmine event=login_success url=https://rm.oblteh.ru/redmine/projects/mehr/issues/new
+2026-09-15 10:33:13,233 | INFO | system=redmine event=requester_set name=Давыдов Александр
+2026-09-15 10:33:13,239 | WARNING | system=redmine event=developer_not_set
+2026-09-15 10:33:13,250 | INFO | system=redmine event=assignee_set_from_developer name=Давыдов Александр
+2026-09-15 13:18:11,325 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-21657&page_caps=&user_role=
+2026-09-15 13:18:11,450 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-21657&page_caps=&user_role=
+2026-09-15 13:18:11,491 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-21657&page_caps=&user_role=
+2026-09-15 13:18:43,570 | ERROR | system=source_jira event=login_failed url=https://jira.mos.social/browse/KISEMIAS2025-21657 reason=timeout
+2026-09-15 13:19:27,252 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-21657&page_caps=&user_role=
+2026-09-15 13:19:27,355 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-21657&page_caps=&user_role=
+2026-09-15 13:19:27,391 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-21657&page_caps=&user_role=
+2026-09-15 15:10:18,657 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21625&page_caps=&user_role=
+2026-09-15 15:10:18,792 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21625&page_caps=&user_role=
+2026-09-15 15:10:18,833 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2019-21625&page_caps=&user_role=
+2026-09-15 15:10:19,964 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2019-21625
+2026-09-15 15:10:20,421 | INFO | system=redmine event=login_check url=https://rm.oblteh.ru/redmine/login?back_url=http%3A%2F%2Frm.oblteh.ru%2Fredmine%2Fissues%2F54433%2Fedit
+2026-09-15 15:10:20,437 | INFO | system=redmine event=login_submit url=https://rm.oblteh.ru/redmine/login?back_url=http%3A%2F%2Frm.oblteh.ru%2Fredmine%2Fissues%2F54433%2Fedit
+2026-09-15 15:10:20,739 | INFO | system=redmine event=login_success url=https://rm.oblteh.ru/redmine/issues/54433/edit
+2026-09-15 15:10:23,369 | INFO | system=source_jira event=login_check url=https://jira.mos.social/browse/KISEMIAS2019-21418
+2026-09-15 15:10:23,619 | INFO | system=source_jira event=session_active url=https://jira.mos.social/browse/KISEMIAS2019-21418
+2026-09-15 15:10:23,948 | INFO | system=redmine event=login_check url=https://rm.oblteh.ru/redmine/issues/53748/edit
+2026-09-15 15:10:23,986 | INFO | system=redmine event=session_active url=https://rm.oblteh.ru/redmine/issues/53748/edit
+2026-09-15 15:10:24,729 | INFO | system=redmine event=login_check url=https://rm.oblteh.ru/redmine/issues/53748/edit
+2026-09-15 15:10:24,746 | INFO | system=redmine event=session_active url=https://rm.oblteh.ru/redmine/issues/53748/edit
+2026-09-15 15:10:26,486 | INFO | system=source_jira event=login_check url=https://jira.mos.social/browse/KISEMIAS2019-14198
+2026-09-15 15:10:26,740 | INFO | system=source_jira event=session_active url=https://jira.mos.social/browse/KISEMIAS2019-14198
+2026-09-15 15:10:27,102 | INFO | system=redmine event=login_check url=https://rm.oblteh.ru/redmine/issues/42945/edit
+2026-09-15 15:10:27,138 | INFO | system=redmine event=session_active url=https://rm.oblteh.ru/redmine/issues/42945/edit
+2026-09-15 15:10:28,846 | INFO | system=source_jira event=login_check url=https://jira.mos.social/browse/KISEMIAS2025-2027
+2026-09-15 15:10:29,078 | INFO | system=source_jira event=session_active url=https://jira.mos.social/browse/KISEMIAS2025-2027
+2026-09-15 15:10:29,567 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-15 15:10:29,604 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-15 15:10:29,874 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-15 15:10:32,749 | INFO | system=source_jira event=login_check url=https://jira.mos.social/browse/KISEMIAS2019-21424
+2026-09-15 15:10:33,014 | INFO | system=source_jira event=session_active url=https://jira.mos.social/browse/KISEMIAS2019-21424
+2026-09-15 15:10:33,375 | INFO | system=redmine event=login_check url=https://rm.oblteh.ru/redmine/issues/53755/edit
+2026-09-15 15:10:33,413 | INFO | system=redmine event=session_active url=https://rm.oblteh.ru/redmine/issues/53755/edit
+2026-09-15 15:10:35,135 | INFO | system=source_jira event=login_check url=https://jira.mos.social/browse/KISEMIAS2019-21374
+2026-09-15 15:10:35,427 | INFO | system=source_jira event=session_active url=https://jira.mos.social/browse/KISEMIAS2019-21374
+2026-09-15 15:10:35,762 | INFO | system=redmine event=login_check url=https://rm.oblteh.ru/redmine/issues/53716/edit
+2026-09-15 15:10:35,827 | INFO | system=redmine event=session_active url=https://rm.oblteh.ru/redmine/issues/53716/edit
+2026-09-15 15:10:37,602 | INFO | system=source_jira event=login_check url=https://jira.mos.social/browse/KISEMIAS2019-19898
+2026-09-15 15:10:37,856 | INFO | system=source_jira event=session_active url=https://jira.mos.social/browse/KISEMIAS2019-19898
+2026-09-15 15:10:38,185 | INFO | system=redmine event=login_check url=https://rm.oblteh.ru/redmine/issues/51362/edit
+2026-09-15 15:10:38,223 | INFO | system=redmine event=session_active url=https://rm.oblteh.ru/redmine/issues/51362/edit
+2026-09-15 15:10:39,904 | INFO | system=source_jira event=login_check url=https://jira.mos.social/browse/KISEMIAS2019-20626
+2026-09-15 15:10:40,173 | INFO | system=source_jira event=session_active url=https://jira.mos.social/browse/KISEMIAS2019-20626
+2026-09-15 15:10:40,507 | INFO | system=redmine event=login_check url=https://rm.oblteh.ru/redmine/issues/52376/edit
+2026-09-15 15:10:40,543 | INFO | system=redmine event=session_active url=https://rm.oblteh.ru/redmine/issues/52376/edit
+2026-09-15 15:11:46,850 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-280&page_caps=&user_role=
+2026-09-15 15:11:46,972 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-280&page_caps=&user_role=
+2026-09-15 15:11:47,018 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-280&page_caps=&user_role=
+2026-09-15 15:11:47,866 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-280
+2026-09-16 11:52:39,671 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1895&page_caps=&user_role=
+2026-09-16 11:52:39,809 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1895&page_caps=&user_role=
+2026-09-16 11:52:39,852 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-1895&page_caps=&user_role=
+2026-09-16 11:52:41,266 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-1895
+2026-09-16 11:52:47,671 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-16 11:52:47,708 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-16 11:52:47,968 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-16 11:52:47,968 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-16 11:52:48,401 | INFO | system=destination_jira event=open_issue_fields
+2026-09-16 11:52:51,878 | INFO | system=destination_jira event=person_field_set field=Тестировщик name=Давыдов Александр
+2026-09-16 11:52:54,933 | INFO | system=destination_jira event=developer_set name=Давыдов Александр
+2026-09-16 11:52:58,000 | INFO | system=destination_jira event=assignee_set_from_developer name=Давыдов Александр
+2026-09-17 10:34:10,363 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-2024&page_caps=&user_role=
+2026-09-17 10:34:10,609 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-2024&page_caps=&user_role=
+2026-09-17 10:34:10,646 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-2024&page_caps=&user_role=
+2026-09-17 10:34:11,902 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-2024
+2026-09-17 10:34:21,572 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-17 10:34:21,612 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-17 10:34:21,878 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-17 10:34:21,879 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-17 10:34:22,322 | INFO | system=destination_jira event=open_issue_fields
+2026-09-17 10:34:22,748 | WARNING | system=destination_jira event=developer_not_set
+2026-09-17 10:34:25,822 | INFO | system=destination_jira event=assignee_set_from_developer name=Давыдов Александр
+2026-09-17 10:36:39,307 | INFO | system=destination_jira event=person_field_set field=Ответственный name=Other developer
+2026-09-17 10:36:39,307 | INFO | system=destination_jira event=person_field_set field=Тестировщик name=Давыдов Александр
+2026-09-17 10:37:00,919 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-2024&page_caps=&user_role=
+2026-09-17 10:37:05,670 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-2024&page_caps=&user_role=
+2026-09-17 10:37:05,922 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-2024&page_caps=&user_role=
+2026-09-17 10:37:05,957 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-2024&page_caps=&user_role=
+2026-09-17 10:37:07,260 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-2024
+2026-09-17 10:37:15,704 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-17 10:37:15,746 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-17 10:37:15,948 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-17 10:37:15,948 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-17 10:37:16,493 | INFO | system=destination_jira event=open_issue_fields
+2026-09-17 10:37:16,981 | WARNING | system=destination_jira event=developer_not_set
+2026-09-17 10:37:20,076 | INFO | system=destination_jira event=assignee_set_from_developer name=Давыдов Александр
+2026-09-17 10:54:56,630 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-2024&page_caps=&user_role=
+2026-09-17 10:54:56,777 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-2024&page_caps=&user_role=
+2026-09-17 10:54:56,830 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-2024&page_caps=&user_role=
+2026-09-17 10:54:58,084 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-2024
+2026-09-17 10:55:08,255 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-17 10:55:08,295 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-17 10:55:08,587 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-17 10:55:08,588 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-17 10:55:09,003 | INFO | system=destination_jira event=open_issue_fields
+2026-09-17 10:55:12,588 | INFO | system=destination_jira event=person_field_set field=Тестировщик name=Давыдов Александр
+2026-09-17 10:55:12,596 | WARNING | system=destination_jira event=developer_not_set
+2026-09-17 10:55:15,669 | INFO | system=destination_jira event=assignee_set_from_developer name=Давыдов Александр
+2026-09-17 10:58:22,843 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-2024&page_caps=&user_role=
+2026-09-17 10:58:22,985 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-2024&page_caps=&user_role=
+2026-09-17 10:58:23,031 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-2024&page_caps=&user_role=
+2026-09-17 10:58:41,791 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-2024&page_caps=&user_role=
+2026-09-17 10:58:42,038 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-2024&page_caps=&user_role=
+2026-09-17 10:58:42,072 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-2024&page_caps=&user_role=
+2026-09-17 10:58:43,488 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-2024
+2026-09-17 10:58:52,692 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-17 10:58:52,728 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-17 10:58:53,012 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-17 10:58:53,012 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-17 10:58:53,540 | INFO | system=destination_jira event=open_issue_fields
+2026-09-17 10:58:57,086 | INFO | system=destination_jira event=person_field_set field=Тестировщик name=Давыдов Александр
+2026-09-17 10:58:57,092 | WARNING | system=destination_jira event=developer_not_set
+2026-09-17 10:59:00,151 | INFO | system=destination_jira event=assignee_set_from_developer name=Давыдов Александр
+2026-09-17 11:01:43,267 | INFO | system=source_jira event=login_check url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-2024&page_caps=&user_role=
+2026-09-17 11:01:43,404 | INFO | system=source_jira event=login_submit url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-2024&page_caps=&user_role=
+2026-09-17 11:01:43,468 | INFO | system=source_jira event=password_filled url=https://jira.mos.social/login.jsp?permissionViolation=true&os_destination=%2Fbrowse%2FKISEMIAS2025-2024&page_caps=&user_role=
+2026-09-17 11:01:44,753 | INFO | system=source_jira event=login_success url=https://jira.mos.social/browse/KISEMIAS2025-2024
+2026-09-17 11:01:53,355 | INFO | system=destination_jira event=login_check url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-17 11:01:53,398 | INFO | system=destination_jira event=login_submit url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-17 11:01:53,719 | INFO | system=destination_jira event=login_success url=http://jira.oblteh:8080/secure/Dashboard.jspa
+2026-09-17 11:01:53,719 | INFO | system=destination_jira event=open_create_issue url=http://jira.oblteh:8080/secure/CreateIssue!default.jspa
+2026-09-17 11:01:54,240 | INFO | system=destination_jira event=open_issue_fields
+2026-09-17 11:01:57,786 | INFO | system=destination_jira event=person_field_set field=Тестировщик name=Давыдов Александр
+2026-09-17 11:01:57,792 | WARNING | system=destination_jira event=developer_not_set
+2026-09-17 11:02:00,855 | INFO | system=destination_jira event=assignee_set_from_developer name=Давыдов Александр

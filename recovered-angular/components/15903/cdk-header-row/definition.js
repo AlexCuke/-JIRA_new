@@ -1,0 +1,14 @@
+// Exact compiled component metadata; references belong to modules/15903.js
+({
+  type: we,
+  selectors: [["cdk-header-row"], ["tr", "cdk-header-row", ""]],
+  hostAttrs: ["role", "row", 1, "cdk-header-row"],
+  decls: 1,
+  vars: 0,
+  consts: [["cdkCellOutlet", ""]],
+  template: function (ve, yt) {
+    1 & ve && t.GkF(0, 0);
+  },
+  dependencies: [Dt],
+  encapsulation: 2
+});

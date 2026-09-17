@@ -11,6 +11,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 DEFAULT_TIMEOUT_MS = 15_000
+NAVIGATION_TIMEOUT_MS = 60_000
+DEFAULT_ASSIGNEE = os.getenv("DEFAULT_ASSIGNEE", "Давыдов Александр")
+DEFAULT_TESTER = "Давыдов Александр"
 DEFAULT_PREFIX = "KISEMIAS2019-"
 AVAILABLE_PREFIXES = ("KISEMIAS2019-", "KISEMIAS2025-", "REFACT-")
 TARGET_JIRA_PROJECTS = ("КИС ЕМИАС (KIS)", "КИС 2.0 (REFACT)")
