@@ -5,3 +5,7 @@ env/
 build/Task_Migrator_KISEMIAS/
 standalone-exe/build/
 java-migrator/target/
+.env
+alert-weaver-*.json
+dist/
+standalone-exe/release/
